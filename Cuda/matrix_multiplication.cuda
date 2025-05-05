@@ -3,7 +3,7 @@
 !time ./file 1 10 && sleep 2
 */
 
-%%writefile asif.cu
+%%writefile matrix.cu
 #include <iostream>
 #include <cuda_runtime.h>
 using namespace std;
